@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root {
+    --primary-color: #618264;
+    --secondary-color: ;
+}
+
+.navigation {
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 100px;
+    height: 65px;
+}
+
+.navig {
+    margin-top: 37px;
+    width: 645px;
+    height: 35px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.outil {
+    height: 35px;
+    cursor: pointer;
+
+
+}
+
+.outil:hover {
+    color: var(--primary-color);
+    text-decoration: underline var(--primary-color);
+
+}
+
+.prem {
+    justify-items: end;
+    justify-content: end;
+    
+}
+
+button {
+    color: var(--primary-color);
+    border: solid 1px none;
+    background-color:var(--primary-color) ;
+    color: beige;
+    width: 180px;
+    height: 60px;
+}
+
+button:hover {
+    background-color: beige;
+    color: #618264;
+    
+}
+
+.ACTU {
+    display: flex;
+    width: 100vw;
+    height: 61Opx;
+}
+
+.Ngannou {
+    width: 50%;
+    height: 100%;
+}
